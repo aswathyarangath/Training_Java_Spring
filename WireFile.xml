@@ -1,0 +1,15 @@
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+
+<beans>
+<bean class="com.wire.Address" id="adr">
+<constructor-arg value="123"></constructor-arg>
+<constructor-arg value="sklm"></constructor-arg>
+</bean>
+
+<bean class="com.wire.Employee" id="id2" autowire="constructor">
+<property name="salary" value="30000"></property>
+</bean>
+</beans>
